@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopNest</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="flex flex-col min-h-screen">
+    <!-- Header Section -->
+    <header>
+      <div class="mainheader max-w-full shadow-xl flex items-center justify-between p-4">
+        <div class="logo flex items-center text-2xl gap-2">
+          <img class="w-[50px] h-[50px]" src="Screenshot 2026-09-26 at 11.01.05 AM.png" alt="Logo" />
+          <h1 class="font-bold">ShopNest</h1>
+        </div>
+
+        <div class="accesories m-auto hidden md:flex flex-wrap gap-6 font-medium">
+          <a href="">Men</a>
+          <a href="">Women</a>
+          <a href="">Accessories</a>
+          <a href="">New arrivals</a>
+          <a class="" href="">Sale</a>
+        </div>
+
+        <div class="icons flex flex-wrap gap-4 items-center">
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href=""><i class="fa-regular fa-user"></i></a>
+       
+          <i class="fa-solid fa-bars md:hidden text-xl cursor-pointer ml-2"></i>
+        </div>
+      </div>
+    </header>
+
+    <main class="grow">
+      <!-- Hero Section -->
+      <div class="newcollection w-full flex flex-wrap justify-between items-center p-4">
+        <div class="textwala w-full md:w-1/2 p-4 md:p-10">
+          <h2 class="text-[#E85D3A] font-extrabold my-4">NEW COLLECTION 2026</h2>
+          <h1 class="font-bold text-4xl md:text-6xl gap-2 leading-tight">Elevate Your Everyday <br />Style</h1>
+          <p class="text-[#96908D] my-4 text-lg">
+            Discover the perfect blend of sustainable materials, thoughtful
+            craftsmanship, and contemporary silhouettes designed to adapt
+            seamlessly to your active life.
+          </p>
+        </div>
+
+        <div class="image w-full md:w-1/2 flex justify-center p-4">
+          <img class="max-w-full h-auto" src="chori.png" />
+        </div>
+      </div>
+      <hr />
+      
+      <!-- Category Section -->
+      <div class="catgory-section w-full p-5 mx-auto">
+        <h2 class="text-[#e85d3a] font-bold text-center text-sm uppercase">Curated collections</h2>
+        <h1 class="font-extrabold text-2xl mt-2 text-center my-4 capitalize">Shop by Category</h1>
+        <div class="catogary-cards grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center mx-auto w-full max-w-7xl">
+          
+          <div class="catgory-card mx-auto relative w-[296px] h-[380px] rounded-xl overflow-hidden">
+            <img class="w-[296px] h-[380px] rounded-xl object-cover" src="image.png" alt="" />
+            <div class="button absolute bottom-6 left-1/2 -translate-x-1/2 w-[85%] bg-[#FFFFFFE6] p-4 rounded-xl flex justify-between items-center">
+              <button class="font-bold">Men</button>
+              <div class="error">
+                <i class="text-[#E85D3A] fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          
+          <div class="catgory-card mx-auto relative w-[296px] h-[380px] rounded-xl overflow-hidden">
+            <img class="w-[296px] h-[380px] rounded-xl object-cover" src="123.png" alt="" />
+            <div class="button absolute bottom-6 left-1/2 -translate-x-1/2 w-[85%] bg-[#FFFFFFE6] p-4 rounded-xl flex justify-between items-center">
+              <button class="font-bold">Men</button>
+              <div class="error">
+                <i class="text-[#E85D3A] fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          
+          <div class="catgory-card mx-auto relative w-[296px] h-[380px] rounded-xl overflow-hidden">
+            <img class="w-[296px] h-[380px] rounded-xl object-cover" src="pro.png" alt="" />
+            <div class="button absolute bottom-6 left-1/2 -translate-x-1/2 w-[85%] bg-[#FFFFFFE6] p-4 rounded-xl flex justify-between items-center">
+              <button class="font-bold">Men</button>
+              <div class="error">
+                <i class="text-[#E85D3A] fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="catgory-card mx-auto relative w-[296px] h-[380px] rounded-xl overflow-hidden">
+            <img class="w-[296px] h-[380px] rounded-xl object-cover" src="you.png" alt="" />
+            <div class="button absolute bottom-6 left-1/2 -translate-x-1/2 w-[85%] bg-[#FFFFFFE6] p-4 rounded-xl flex justify-between items-center">
+              <button class="font-bold">Men</button>
+              <div class="error">
+                <i class="text-[#E85D3A] fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <!-- Featured Products -->
+      <div class="main w-full p-5 m-4">
+        <h2 class="text-[#e85d3a] font-bold">OUR BEST SELLER</h2>
+        <h1 class="font-extrabold text-2xl mt-2">Featured Products</h1>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+        <!-- Product Card 1 -->
+        <div class="card shadow-lg rounded-[18px] pb-4">
+          <img class="rounded-t-[18px] w-full" src="jacket.png" alt="" />
+          <ul class="flex px-3 pt-3 gap-1">
+            <li><img src="jacket2.jpeg" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+          </ul>
+          <h2 class="font-bold px-3 mt-1">Classic Leather Jacket</h2>
+          <p class="text-[#E85D3A] px-3 mb-3">
+            $249 <span class="line-through text-[#96908D] ml-2">$299</span>
+          </p>
+          <div class="px-3">
+            <button class="bg-[black] w-full py-2 text-white flex gap-2 justify-center items-center rounded-lg hover:bg-gray-800 transition">
+              <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="card shadow-lg rounded-[18px] pb-4">
+          <img class="rounded-t-[18px] w-full" src="jacket.png" alt="" />
+          <ul class="flex px-3 pt-3 gap-1">
+            <li><img src="jacket2.jpeg" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+          </ul>
+          <h2 class="font-bold px-3 mt-1">Classic Leather Jacket</h2>
+          <p class="text-[#E85D3A] px-3 mb-3">
+            $249 <span class="line-through text-[#96908D] ml-2">$299</span>
+          </p>
+          <div class="px-3">
+            <button class="bg-[black] w-full py-2 text-white flex gap-2 justify-center items-center rounded-lg hover:bg-gray-800 transition">
+              <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="card shadow-lg rounded-[18px] pb-4">
+          <img class="rounded-t-[18px] w-full" src="jacket.png" alt="" />
+          <ul class="flex px-3 pt-3 gap-1">
+            <li><img src="jacket2.jpeg" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+          </ul>
+          <h2 class="font-bold px-3 mt-1">Classic Leather Jacket</h2>
+          <p class="text-[#E85D3A] px-3 mb-3">
+            $249 <span class="line-through text-[#96908D] ml-2">$299</span>
+          </p>
+          <div class="px-3">
+            <button class="bg-[black] w-full py-2 text-white flex gap-2 justify-center items-center rounded-lg hover:bg-gray-800 transition">
+              <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+            </button>
+          </div>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="card shadow-lg rounded-[18px] pb-4">
+          <img class="rounded-t-[18px] w-full" src="jacket.png" alt="" />
+          <ul class="flex px-3 pt-3 gap-1">
+            <li><img src="jacket2.jpeg" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+            <li><img src="Vector.png" alt="" /></li>
+          </ul>
+          <h2 class="font-bold px-3 mt-1">Classic Leather Jacket</h2>
+          <p class="text-[#E85D3A] px-3 mb-3">
+            $249 <span class="line-through text-[#96908D] ml-2">$299</span>
+          </p>
+          <div class="px-3">
+            <button class="bg-[black] w-full py-2 text-white flex gap-2 justify-center items-center rounded-lg hover:bg-gray-800 transition">
+              <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trending Now Section -->
+      <div class="nichewala p-10 md:p-20">
+        <h5 class="text-[#E85D3A] text-center font-bold">Most Loved Pieces</h5>
+        <h1 class="font-extrabold text-center text-3xl md:text-4xl p-3 mb-6">Trending Now</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <!-- Trending Card 1 -->
+          <div class="card shadow-lg rounded-[18px] pb-4">
+            <img class="rounded-t-[18px] w-full" src="jacket.png" alt="" />
+            <ul class="flex px-3 pt-3 gap-1">
+              <li><img src="jacket2.jpeg" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+            </ul>
+            <h2 class="font-bold px-3 mt-1">Classic Leather Jacket</h2>
+            <p class="text-[#E85D3A] px-3 mb-3">
+              $249 <span class="line-through text-[#96908D] ml-2">$299</span>
+            </p>
+            <div class="px-3">
+              <button class="bg-[black] w-full py-2 text-white flex gap-2 justify-center items-center rounded-lg hover:bg-gray-800 transition">
+                <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <!-- Trending Card 2 -->
+          <div class="card shadow-lg rounded-[18px] pb-4">
+            <img class="rounded-t-[18px] w-full" src="jacket.png" alt="" />
+            <ul class="flex px-3 pt-3 gap-1">
+              <li><img src="jacket2.jpeg" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+            </ul>
+            <h2 class="font-bold px-3 mt-1">Classic Leather Jacket</h2>
+            <p class="text-[#E85D3A] px-3 mb-3">
+              $249 <span class="line-through text-[#96908D] ml-2">$299</span>
+            </p>
+            <div class="px-3">
+              <button class="bg-[black] w-full py-2 text-white flex gap-2 justify-center items-center rounded-lg hover:bg-gray-800 transition">
+                <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <!-- Trending Card 3 -->
+          <div class="card shadow-lg rounded-[18px] pb-4">
+            <img class="rounded-t-[18px] w-full" src="jacket.png" alt="" />
+            <ul class="flex px-3 pt-3 gap-1">
+              <li><img src="jacket2.jpeg" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+            </ul>
+            <h2 class="font-bold px-3 mt-1">Classic Leather Jacket</h2>
+            <p class="text-[#E85D3A] px-3 mb-3">
+              $249 <span class="line-through text-[#96908D] ml-2">$299</span>
+            </p>
+            <div class="px-3">
+              <button class="bg-[black] w-full py-2 text-white flex gap-2 justify-center items-center rounded-lg hover:bg-gray-800 transition">
+                <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <!-- Trending Card 4 -->
+          <div class="card shadow-lg rounded-[18px] pb-4">
+            <img class="rounded-t-[18px] w-full" src="jacket.png" alt="" />
+            <ul class="flex px-3 pt-3 gap-1">
+              <li><img src="jacket2.jpeg" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+              <li><img src="Vector.png" alt="" /></li>
+            </ul>
+            <h2 class="font-bold px-3 mt-1">Classic Leather Jacket</h2>
+            <p class="text-[#E85D3A] px-3 mb-3">
+              $249 <span class="line-through text-[#96908D] ml-2">$299</span>
+            </p>
+            <div class="px-3">
+              <button class="bg-[black] w-full py-2 text-white flex gap-2 justify-center items-center rounded-lg hover:bg-gray-800 transition">
+                <i class="fa-solid fa-bag-shopping"></i>Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="maincontaineroffooter w-full bg-black min-h-[300px] p-8 flex flex-wrap gap-8 justify-between">
+        <div class="phla w-full md:w-[280px] flex flex-col gap-4">
+          <div class="flex items-center gap-2">
+            <img class="w-10 h-10" src="Screenshot 2026-09-26 at 11.01.05 AM.png" alt="Logo" />
+            <h2 class="text-white text-[22px] font-bold">ShopNest</h2>
+          </div>
+          <p class="text-[#96908D] text-sm leading-relaxed">
+            Crafting premium and sustainable clothing items engineered to fit
+            into your active everyday life. Elevated minimal aesthetics.
+          </p>
+          <div class="icons text-white flex gap-4 text-lg">
+            <a href="" class="hover:text-[#E85D3A]"><i class="fa-brands fa-instagram"></i></a>
+            <a href="" class="hover:text-[#E85D3A]"><i class="fa-brands fa-facebook"></i></a>
+            <a href="" class="hover:text-[#E85D3A]"><i class="fa-brands fa-twitter"></i></a>
+            <a href="" class="hover:text-[#E85D3A]"><i class="fa-solid fa-xmark"></i></a>
+          </div>
+        </div>
+
+        <div class="dushra w-[120px] md:w-[150px] flex flex-col items-start gap-3">
+          <h2 class="text-white font-extrabold text-[18px] mb-2">Shop</h2>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Men</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Women</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Accessories</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">New arrivals</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Sale</a>
+        </div>
+
+        <div class="tishra w-[120px] md:w-[150px] flex flex-col items-start gap-3">
+          <h2 class="text-white font-extrabold text-[18px] mb-2">Help</h2>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">FAQ</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Shipping</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Returns</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Size Guide</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Contact</a>
+        </div>
+
+        <div class="chotha w-[120px] md:w-[150px] flex flex-col items-start gap-3">
+          <h2 class="text-white font-extrabold text-[18px] mb-2">Company</h2>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">About Us</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Careers</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Press</a>
+          <a class="text-[#96908D] hover:text-white text-sm" href="">Sustainability</a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
